@@ -1,0 +1,89 @@
+body{
+    background-color: #eaeff1;
+    display:flex;
+    
+   
+}
+.card{
+    width: 150px;
+    height: 350px;
+    background-color: #fff;
+    border: 1px solid  #bacdd8;
+    border-radius: 8px;
+    
+    
+}
+.card__header{
+    position: relative;
+    
+
+}
+.card__header>img{
+    width: 95%;
+    border-radius: 8px;
+     object-fit: cover;
+     margin: 4px;
+  margin-bottom: 0px;
+}
+  .tag {
+    padding: 4px 8px;
+    border: 1px solid #e5eaed;
+    border-radius: 50px;
+    font-size: 8px;
+    color: #788697;
+  }
+  .name {
+    font-size: 14px;
+    margin-top: 16px;
+  }
+  p {
+    font-size: 10px ;
+    color: #7f8c9b;
+    text-align: right;
+    
+  }
+  button {
+    border: none;
+    padding: 6px 13px;
+    border-radius: 50px;
+    color: #fffbfb;
+    background-color: #000;
+    margin:  auto;
+    display: block;
+    cursor: pointer;
+    font-size: 10px;
+    box-shadow: 0px 6px 10px 0px #07051C;
+  }
+  .card__details {
+    padding: 0px 8px 8px 8px;
+  }
+   
+ button:hover {
+  background-color: #075684;
+  color: #e0efff;
+  box-shadow: #aea6a6;
+}
+.material-symbols-outlined {
+  font-size: 20px !important ;
+   /* background-color: #efe5e5; */
+  color: #000;
+  border-radius: 10px;
+  position:absolute;
+   top: 325px;
+  right:10px ; 
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+  
+}
+.price{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 305px;
+  margin: 10px;
+}
+
+
